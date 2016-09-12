@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e0l-o2-cXT" userLabel="身份证号">
+                                <rect key="frame" x="30" y="131" width="260" height="50"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="8tN-2L-d6s"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0tX-0V-vBt">
+                                <rect key="frame" x="66" y="239" width="188" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="0YU-9p-8uz"/>
+                                </constraints>
+                                <state key="normal" title="验证"/>
+                                <connections>
+                                    <action selector="startCheck" destination="BYZ-38-t0r" eventType="touchUpInside" id="xei-bX-71P"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="验证结果" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGN-KN-w8Z" userLabel="验证结果">
+                                <rect key="frame" x="10" y="81" width="300" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="dgN-aG-z5f"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0tX-0V-vBt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="1WT-yJ-ZaI"/>
+                            <constraint firstAttribute="trailing" secondItem="bGN-KN-w8Z" secondAttribute="trailing" constant="10" id="2bv-7R-OGt"/>
+                            <constraint firstItem="e0l-o2-cXT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="Bnp-Ii-CLs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0tX-0V-vBt" secondAttribute="trailing" constant="50" id="U9I-fT-eoF"/>
+                            <constraint firstItem="bGN-KN-w8Z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="b3c-iU-DWy"/>
+                            <constraint firstItem="0tX-0V-vBt" firstAttribute="top" secondItem="e0l-o2-cXT" secondAttribute="bottom" constant="58" id="fWg-y8-wnp"/>
+                            <constraint firstAttribute="trailing" secondItem="e0l-o2-cXT" secondAttribute="trailing" constant="30" id="jEb-3H-53s"/>
+                            <constraint firstItem="e0l-o2-cXT" firstAttribute="top" secondItem="bGN-KN-w8Z" secondAttribute="bottom" constant="29" id="q5A-aJ-fdb"/>
+                            <constraint firstItem="e0l-o2-cXT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="111" id="zZX-kX-xHY"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="checkMessage" destination="bGN-KN-w8Z" id="AUa-zh-Ohm"/>
+                        <outlet property="idNumber" destination="e0l-o2-cXT" id="s7f-O2-Vph"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="306" y="146"/>
+        </scene>
+    </scenes>
+</document>

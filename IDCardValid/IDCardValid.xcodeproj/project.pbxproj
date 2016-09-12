@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCA714BC1D82C0A100CD9BE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA714BB1D82C0A100CD9BE8 /* main.m */; };
+		DCA714BF1D82C0A100CD9BE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA714BE1D82C0A100CD9BE8 /* AppDelegate.m */; };
+		DCA714C21D82C0A100CD9BE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA714C11D82C0A100CD9BE8 /* ViewController.m */; };
+		DCA714C51D82C0A100CD9BE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA714C31D82C0A100CD9BE8 /* Main.storyboard */; };
+		DCA714C71D82C0A100CD9BE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA714C61D82C0A100CD9BE8 /* Assets.xcassets */; };
+		DCA714CA1D82C0A100CD9BE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA714C81D82C0A100CD9BE8 /* LaunchScreen.storyboard */; };
+		DCA714D51D82C0A100CD9BE8 /* IDCardValidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA714D41D82C0A100CD9BE8 /* IDCardValidTests.m */; };
+		DCA714E01D82C0A100CD9BE8 /* IDCardValidUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA714DF1D82C0A100CD9BE8 /* IDCardValidUITests.m */; };
+		DCA714EF1D82C0E400CD9BE8 /* IDCardValid.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA714EE1D82C0E400CD9BE8 /* IDCardValid.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCA714D11D82C0A100CD9BE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCA714AF1D82C0A100CD9BE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA714B61D82C0A100CD9BE8;
+			remoteInfo = IDCardValid;
+		};
+		DCA714DC1D82C0A100CD9BE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCA714AF1D82C0A100CD9BE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA714B61D82C0A100CD9BE8;
+			remoteInfo = IDCardValid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCA714B71D82C0A100CD9BE8 /* IDCardValid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDCardValid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA714BB1D82C0A100CD9BE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCA714BD1D82C0A100CD9BE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCA714BE1D82C0A100CD9BE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCA714C01D82C0A100CD9BE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCA714C11D82C0A100CD9BE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCA714C41D82C0A100CD9BE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCA714C61D82C0A100CD9BE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCA714C91D82C0A100CD9BE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCA714CB1D82C0A100CD9BE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA714D01D82C0A100CD9BE8 /* IDCardValidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDCardValidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA714D41D82C0A100CD9BE8 /* IDCardValidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDCardValidTests.m; sourceTree = "<group>"; };
+		DCA714D61D82C0A100CD9BE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA714DB1D82C0A100CD9BE8 /* IDCardValidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDCardValidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA714DF1D82C0A100CD9BE8 /* IDCardValidUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDCardValidUITests.m; sourceTree = "<group>"; };
+		DCA714E11D82C0A100CD9BE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA714ED1D82C0E400CD9BE8 /* IDCardValid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDCardValid.h; sourceTree = "<group>"; };
+		DCA714EE1D82C0E400CD9BE8 /* IDCardValid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDCardValid.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCA714B41D82C0A100CD9BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA714CD1D82C0A100CD9BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA714D81D82C0A100CD9BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCA714AE1D82C0A100CD9BE8 = {
+			isa = PBXGroup;
+			children = (
+				DCA714B91D82C0A100CD9BE8 /* IDCardValid */,
+				DCA714D31D82C0A100CD9BE8 /* IDCardValidTests */,
+				DCA714DE1D82C0A100CD9BE8 /* IDCardValidUITests */,
+				DCA714B81D82C0A100CD9BE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCA714B81D82C0A100CD9BE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCA714B71D82C0A100CD9BE8 /* IDCardValid.app */,
+				DCA714D01D82C0A100CD9BE8 /* IDCardValidTests.xctest */,
+				DCA714DB1D82C0A100CD9BE8 /* IDCardValidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCA714B91D82C0A100CD9BE8 /* IDCardValid */ = {
+			isa = PBXGroup;
+			children = (
+				DCA714BD1D82C0A100CD9BE8 /* AppDelegate.h */,
+				DCA714BE1D82C0A100CD9BE8 /* AppDelegate.m */,
+				DCA714C01D82C0A100CD9BE8 /* ViewController.h */,
+				DCA714C11D82C0A100CD9BE8 /* ViewController.m */,
+				DCA714C31D82C0A100CD9BE8 /* Main.storyboard */,
+				DCA714C61D82C0A100CD9BE8 /* Assets.xcassets */,
+				DCA714C81D82C0A100CD9BE8 /* LaunchScreen.storyboard */,
+				DCA714CB1D82C0A100CD9BE8 /* Info.plist */,
+				DCA714BA1D82C0A100CD9BE8 /* Supporting Files */,
+				DCA714ED1D82C0E400CD9BE8 /* IDCardValid.h */,
+				DCA714EE1D82C0E400CD9BE8 /* IDCardValid.m */,
+			);
+			path = IDCardValid;
+			sourceTree = "<group>";
+		};
+		DCA714BA1D82C0A100CD9BE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCA714BB1D82C0A100CD9BE8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCA714D31D82C0A100CD9BE8 /* IDCardValidTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCA714D41D82C0A100CD9BE8 /* IDCardValidTests.m */,
+				DCA714D61D82C0A100CD9BE8 /* Info.plist */,
+			);
+			path = IDCardValidTests;
+			sourceTree = "<group>";
+		};
+		DCA714DE1D82C0A100CD9BE8 /* IDCardValidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCA714DF1D82C0A100CD9BE8 /* IDCardValidUITests.m */,
+				DCA714E11D82C0A100CD9BE8 /* Info.plist */,
+			);
+			path = IDCardValidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCA714B61D82C0A100CD9BE8 /* IDCardValid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA714E41D82C0A100CD9BE8 /* Build configuration list for PBXNativeTarget "IDCardValid" */;
+			buildPhases = (
+				DCA714B31D82C0A100CD9BE8 /* Sources */,
+				DCA714B41D82C0A100CD9BE8 /* Frameworks */,
+				DCA714B51D82C0A100CD9BE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDCardValid;
+			productName = IDCardValid;
+			productReference = DCA714B71D82C0A100CD9BE8 /* IDCardValid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCA714CF1D82C0A100CD9BE8 /* IDCardValidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA714E71D82C0A100CD9BE8 /* Build configuration list for PBXNativeTarget "IDCardValidTests" */;
+			buildPhases = (
+				DCA714CC1D82C0A100CD9BE8 /* Sources */,
+				DCA714CD1D82C0A100CD9BE8 /* Frameworks */,
+				DCA714CE1D82C0A100CD9BE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCA714D21D82C0A100CD9BE8 /* PBXTargetDependency */,
+			);
+			name = IDCardValidTests;
+			productName = IDCardValidTests;
+			productReference = DCA714D01D82C0A100CD9BE8 /* IDCardValidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCA714DA1D82C0A100CD9BE8 /* IDCardValidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA714EA1D82C0A100CD9BE8 /* Build configuration list for PBXNativeTarget "IDCardValidUITests" */;
+			buildPhases = (
+				DCA714D71D82C0A100CD9BE8 /* Sources */,
+				DCA714D81D82C0A100CD9BE8 /* Frameworks */,
+				DCA714D91D82C0A100CD9BE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCA714DD1D82C0A100CD9BE8 /* PBXTargetDependency */,
+			);
+			name = IDCardValidUITests;
+			productName = IDCardValidUITests;
+			productReference = DCA714DB1D82C0A100CD9BE8 /* IDCardValidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCA714AF1D82C0A100CD9BE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = magic;
+				TargetAttributes = {
+					DCA714B61D82C0A100CD9BE8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DCA714CF1D82C0A100CD9BE8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DCA714B61D82C0A100CD9BE8;
+					};
+					DCA714DA1D82C0A100CD9BE8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DCA714B61D82C0A100CD9BE8;
+					};
+				};
+			};
+			buildConfigurationList = DCA714B21D82C0A100CD9BE8 /* Build configuration list for PBXProject "IDCardValid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCA714AE1D82C0A100CD9BE8;
+			productRefGroup = DCA714B81D82C0A100CD9BE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCA714B61D82C0A100CD9BE8 /* IDCardValid */,
+				DCA714CF1D82C0A100CD9BE8 /* IDCardValidTests */,
+				DCA714DA1D82C0A100CD9BE8 /* IDCardValidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCA714B51D82C0A100CD9BE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA714CA1D82C0A100CD9BE8 /* LaunchScreen.storyboard in Resources */,
+				DCA714C71D82C0A100CD9BE8 /* Assets.xcassets in Resources */,
+				DCA714C51D82C0A100CD9BE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA714CE1D82C0A100CD9BE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA714D91D82C0A100CD9BE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCA714B31D82C0A100CD9BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA714C21D82C0A100CD9BE8 /* ViewController.m in Sources */,
+				DCA714BF1D82C0A100CD9BE8 /* AppDelegate.m in Sources */,
+				DCA714BC1D82C0A100CD9BE8 /* main.m in Sources */,
+				DCA714EF1D82C0E400CD9BE8 /* IDCardValid.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA714CC1D82C0A100CD9BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA714D51D82C0A100CD9BE8 /* IDCardValidTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA714D71D82C0A100CD9BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA714E01D82C0A100CD9BE8 /* IDCardValidUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCA714D21D82C0A100CD9BE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA714B61D82C0A100CD9BE8 /* IDCardValid */;
+			targetProxy = DCA714D11D82C0A100CD9BE8 /* PBXContainerItemProxy */;
+		};
+		DCA714DD1D82C0A100CD9BE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA714B61D82C0A100CD9BE8 /* IDCardValid */;
+			targetProxy = DCA714DC1D82C0A100CD9BE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCA714C31D82C0A100CD9BE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA714C41D82C0A100CD9BE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCA714C81D82C0A100CD9BE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA714C91D82C0A100CD9BE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCA714E21D82C0A100CD9BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCA714E31D82C0A100CD9BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCA714E51D82C0A100CD9BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IDCardValid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magic.IDCardValid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCA714E61D82C0A100CD9BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IDCardValid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magic.IDCardValid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCA714E81D82C0A100CD9BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IDCardValidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magic.IDCardValidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDCardValid.app/IDCardValid";
+			};
+			name = Debug;
+		};
+		DCA714E91D82C0A100CD9BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IDCardValidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magic.IDCardValidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDCardValid.app/IDCardValid";
+			};
+			name = Release;
+		};
+		DCA714EB1D82C0A100CD9BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IDCardValidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magic.IDCardValidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IDCardValid;
+			};
+			name = Debug;
+		};
+		DCA714EC1D82C0A100CD9BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IDCardValidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magic.IDCardValidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IDCardValid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCA714B21D82C0A100CD9BE8 /* Build configuration list for PBXProject "IDCardValid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA714E21D82C0A100CD9BE8 /* Debug */,
+				DCA714E31D82C0A100CD9BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA714E41D82C0A100CD9BE8 /* Build configuration list for PBXNativeTarget "IDCardValid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA714E51D82C0A100CD9BE8 /* Debug */,
+				DCA714E61D82C0A100CD9BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCA714E71D82C0A100CD9BE8 /* Build configuration list for PBXNativeTarget "IDCardValidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA714E81D82C0A100CD9BE8 /* Debug */,
+				DCA714E91D82C0A100CD9BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCA714EA1D82C0A100CD9BE8 /* Build configuration list for PBXNativeTarget "IDCardValidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA714EB1D82C0A100CD9BE8 /* Debug */,
+				DCA714EC1D82C0A100CD9BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCA714AF1D82C0A100CD9BE8 /* Project object */;
+}
