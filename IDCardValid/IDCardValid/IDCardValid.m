@@ -26,6 +26,8 @@
 @implementation IDCardValid
 // 62122719820726493X
 // 012345678901234567
+
+// MARK: 实际开发如果有身份证图片上传后台审核则二次验证,如只提供身份证ID则可三次验证
 + (BOOL)validIDCardWithString:(NSString *)idStr
 {
     // 1.一次校验
